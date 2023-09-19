@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="welcome_screen_pane" opacity="0.93" prefHeight="400.0" prefWidth="700.0" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="layoutsControllers.EmployeLoginScreenController">
+
+
+    <children>
+        <Label layoutX="243.0" layoutY="130.0" prefHeight="24.0" prefWidth="146.0" text="Nom D'utilisateur" textFill="WHITE">
+            <font>
+                <Font name="Arial Bold" size="16.0" />
+            </font>
+        </Label>
+        <TextField id="admin_username_textField" fx:id="employeUserName" alignment="CENTER" focusTraversable="false" layoutX="243.0" layoutY="154.0" prefHeight="24.0" prefWidth="215.0">
+            <font>
+                <Font name="Calibri" size="17.0" />
+            </font>
+        </TextField>
+        <Label layoutX="243.0" layoutY="200.0" prefHeight="24.0" prefWidth="146.0" text="Mot De Passe" textFill="WHITE">
+            <font>
+                <Font name="Arial Bold" size="16.0" />
+            </font>
+        </Label>
+        <PasswordField fx:id="employePassword" alignment="CENTER" focusTraversable="false" layoutX="243.0" layoutY="224.0" prefHeight="24.0" prefWidth="215.0">
+            <font>
+                <Font name="Calibri" size="17.0" />
+            </font>
+        </PasswordField>
+        <Button id="admin_login_btn" layoutX="243.0" layoutY="288.0" mnemonicParsing="false" onAction="#employeLogin" prefHeight="33.0" prefWidth="111.0" text="Connexion" textFill="WHITE">
+            <font>
+                <Font name="Arial Bold" size="16.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button id="adminlogin_return_btn" layoutX="376.0" layoutY="288.0" mnemonicParsing="false" onAction="#toWelcomeScreen" prefHeight="33.0" prefWidth="82.0" text="Retour">
+            <font>
+                <Font name="Arial" size="16.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Label layoutX="249.0" layoutY="14.0" prefHeight="67.0" prefWidth="239.0" text="Gestion D'hotel" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Cambria Bold" size="33.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="53.0" fitWidth="72.0" layoutX="190.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../assests/hotel.png" />
+            </image>
+        </ImageView>
+        <Line endX="-7.0" layoutX="316.0" layoutY="81.0" startX="-100.0" stroke="#ffd164" />
+        <Label layoutX="316.0" layoutY="64.0" prefHeight="33.0" prefWidth="59.0" text="Employe" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Cambria Bold" size="14.0" />
+            </font>
+        </Label>
+        <Line endX="-7.0" layoutX="477.0" layoutY="81.0" startX="-100.0" stroke="#ffd164" />
+    </children>
+
+</AnchorPane>

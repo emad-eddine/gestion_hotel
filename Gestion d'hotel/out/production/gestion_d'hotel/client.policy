@@ -1,0 +1,10 @@
+grant{
+    permission java.security.AllPermission;
+};
+
+
+grant codeBase "file:C:\Users\IMAD\Desktop\Projet SRA V2\client\out\production\client\Main" {
+
+   permission java.security.AllPermission;
+
+};

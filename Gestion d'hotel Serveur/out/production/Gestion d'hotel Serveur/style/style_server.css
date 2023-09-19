@@ -1,0 +1,9 @@
+#serverOnBtn{
+    -fx-background-radius : 50px;
+    -fx-background-color : rgb(12, 54, 12);
+}
+
+#serverOffBtn{
+    -fx-background-radius : 50px;
+    -fx-background-color : rgb(145, 0, 0);
+}

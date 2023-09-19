@@ -1,0 +1,9 @@
+grant {
+    permission java.security.AllPermission;
+};
+
+grant codeBase "file:C:\Users\IMAD\Desktop\Projet SRA V2\Gestion d'hotel Serveur\out\production\Gestion d'hotel Serveur" {
+
+   permission java.security.AllPermission;
+
+};

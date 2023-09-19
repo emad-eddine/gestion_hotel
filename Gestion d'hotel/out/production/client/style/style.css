@@ -1,0 +1,67 @@
+#pane{
+    -fx-background-image: url("../assets/walp2.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1000 600;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+#signPane{
+    -fx-background-image: url("../assets/walp6.jfif");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1000 600;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+#adminUserNameField,#adminPasswordField
+{
+    -fx-background-color: #1C0936;
+    -fx-border-color : #FFFF;
+    -fx-border-width : 0 0 1 0;
+    -fx-font-size: 20px;
+    -fx-padding: 2px 2px 5px 2px;
+    -fx-text-fill: #FFFF;
+}
+
+#connexion_pane{
+    -fx-background-color: #1C0936;
+
+}
+#signup_pane
+{-fx-background-color: #000000;
+
+}
+
+#adminLoginBtn,#returnToAdminLoginScreen,#adminSignUpbtn{
+    -fx-background-color: rgb(218, 40, 40)7;
+    -fx-background-radius : 50px;
+}
+
+#adminSignupNameField,#adminSignupUserNameField,#adminSignupPasswordField
+{
+    -fx-background-color: #000000;
+    -fx-border-color : #FFFF;
+    -fx-border-width : 0 0 1 0;
+    -fx-font-size: 20px;
+    -fx-padding: 2px 2px 5px 2px;
+    -fx-text-fill: #FFFF;
+}
+
+#adminSplashScreen
+{
+    -fx-background-color: #1C0936;
+}
+
+
+
+#dashBoradVbox{
+    -fx-background-color: #2A1E41;
+
+}
+
+
+#addDishBtn,#editDishBtn,#deleteDishBtn{
+    -fx-background-color: #3F3061;
+    -fx-background-radius : 50px;
+}

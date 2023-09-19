@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="serverStatusLabel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" stylesheets="@../style/style_server.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ServerMainScreenController">
+    <children>
+        <Pane prefHeight="306.0" prefWidth="223.0" style="-fx-background-color: #2A1E41;">
+            <children>
+                <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="37.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../assests/serveur.png" />
+                    </image>
+                </ImageView>
+            </children>
+        </Pane>
+        <Label layoutX="236.0" layoutY="113.0" text="Etat Serveur :" textFill="#3f3061">
+            <font>
+                <Font name="Segoe UI" size="30.0" />
+            </font>
+        </Label>
+        <Label fx:id="serverStatusLabel1" layoutX="432.0" layoutY="113.0" text="OFF" textFill="#910000">
+            <font>
+                <Font name="Segoe UI Bold" size="30.0" />
+            </font>
+        </Label>
+        <Button id="serverOnBtn" fx:id="serverOnBtn" layoutX="250.0" layoutY="207.0" mnemonicParsing="false" onAction="#turnServerOn" prefHeight="37.0" prefWidth="74.0" text="ON" textFill="WHITE">
+            <font>
+                <Font name="Segoe UI Bold" size="20.0" />
+            </font>
+        </Button>
+        <Button id="serverOffBtn" fx:id="serverOffBtn" layoutX="395.0" layoutY="207.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="74.0" text="OFF" textFill="WHITE">
+            <font>
+                <Font name="Segoe UI Bold" size="20.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

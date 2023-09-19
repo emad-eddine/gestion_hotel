@@ -1,0 +1,56 @@
+#adminSplashScreen
+{
+    -fx-background-image : url("../assests/hotel_background.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 1000 600;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+
+
+#welcome_screen_pane
+{
+    -fx-background-image : url("../assests/welcome_screen_background.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 1000 600;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+
+#welcome_clientBtn,#welcome_managerBtn,#welcome_adminBtn{
+
+    -fx-background-radius : 12px;
+    -fx-background-color: #FFD164;
+}
+
+#welcome_clientBtn:hover,#welcome_managerBtn:hover,#welcome_adminBtn:hover
+{
+    -fx-background-color: #25263A;
+    -fx-text-fill : #FFF;
+}
+
+#admin_login_btn{
+    -fx-background-color: #25263A;
+    -fx-background-radius : 12px;
+}
+
+#adminlogin_return_btn{
+    -fx-background-color: #FFD164;
+    -fx-background-radius : 12px;
+}
+
+#admin_menu_pane
+{
+    -fx-background-color: #25263A;
+}
+
+#admin_main_menu_btn{
+    -fx-background-radius : 12px;
+    -fx-background-color: #FFD164;
+}
+
+#admin_main_menu_btn:hover
+{
+    -fx-background-color: #5D5360;
+    -fx-text-fill : #FFF;
+}

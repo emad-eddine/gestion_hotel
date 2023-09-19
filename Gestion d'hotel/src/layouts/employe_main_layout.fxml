@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="layoutsControllers.EmployeMainController">
+   <children>
+      <Label fx:id="timeLabel" layoutX="516.0" layoutY="499.0" text="07:20:00 PM" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="dateLabel" layoutX="544.0" layoutY="543.0" text="12/02/2022" textFill="#ffd164">
+         <font>
+            <Font name="Cambria" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="timeLabel1" layoutX="94.0" layoutY="178.0" text="Bienvenue," textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="employeName" layoutX="319.0" layoutY="178.0" prefHeight="47.0" prefWidth="367.0" text="Employe" textFill="#ffd164">
+         <font>
+            <Font name="Arial Bold" size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
